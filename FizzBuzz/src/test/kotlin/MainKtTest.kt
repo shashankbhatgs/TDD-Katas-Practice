@@ -9,4 +9,11 @@ class MainKtTest{
         val ans = fizzBuzz.printNumber(1)
         assertEquals(1, ans)
     }
+
+    @Test
+    fun `print 2 for the input 2`(){
+        val fizzBuzz = FizzBuzz()
+        val ans = fizzBuzz.printNumber(2)
+        assertEquals(2, ans)
+    }
 }

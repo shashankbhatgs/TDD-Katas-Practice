@@ -6,7 +6,7 @@ fun main() {
 
 class FizzBuzz{
     fun printNumber(i: Int): Int {
-        return 1
+        return i
     }
 
 }
