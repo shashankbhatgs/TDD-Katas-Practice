@@ -24,4 +24,11 @@ class MainKtTest{
         assertEquals("Fizz", ans)
     }
 
+    @Test
+    fun `print Buzz for multiples of 5`(){
+        val fizzBuzz = FizzBuzz()
+        val ans = fizzBuzz.printNumber(5)
+        assertEquals("Buzz", ans)
+    }
+
 }
