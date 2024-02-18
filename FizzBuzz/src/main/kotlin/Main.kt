@@ -5,8 +5,11 @@ fun main() {
 }
 
 class FizzBuzz{
-    fun printNumber(i: Int): Int {
-        return i
+    fun printNumber(i: Int): String {
+        if(i % 3 == 0){
+            return "Fizz"
+        }
+        return "$i"
     }
 
 }
